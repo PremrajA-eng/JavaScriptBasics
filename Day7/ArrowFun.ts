@@ -15,6 +15,7 @@ console.log(multi(10,50));
 
 
 // Arrow function with optional value
+// first parameter is optional then its followed variable should optioanal.
 let info=(id:number,names:string,mailid?:string):void =>{
 
 console.log("id " +id+ " " +names)
