@@ -27,9 +27,9 @@ if(mailid!==undefined){
 info(10,"prem", "aruprem@gmail.com");
 
 // Arrow function with multiple values
-let stdInfo=(...info:(number|string|boolean)[]):number=>{
+let stdInfo2=(...info:(number|string|boolean)[]):number=>{
 return info.length;
 
 }
-console.log(stdInfo(10,"prem",true))
-console.log(stdInfo("prem",12,true))
+console.log(stdInfo2(10,"prem",true))
+console.log(stdInfo2("prem",12,true))
